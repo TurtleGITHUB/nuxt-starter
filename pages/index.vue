@@ -299,4 +299,7 @@ useHead({
 .post-meta {
   display: flex;
   justify-content: space-between;
-  align
+  align-items: center;
+}
+
+</style>
