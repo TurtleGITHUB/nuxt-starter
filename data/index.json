@@ -1,104 +1,93 @@
 {
   "hero": {
-    "title": "Build Blazing-Fast Websites with Nuxt.js & Netlify",
-    "description": "Craft high-performing, SEO-friendly web experiences with the dynamic power of Nuxt.js and the speed of Netlify's global edge network.",
-    "image": "images/hero.jpg",
-    "imageAlt": "Nuxt logo and title on abstract background",
+    "title": "🎲 Welcome to D&D Adventures",
+    "description": "Embark on epic quests, master the art of storytelling, and discover the magic of Dungeons & Dragons.",
     "buttons": [
       {
-        "label": "Get Started Today",
-        "url": "https://www.netlify.com/"
+        "label": "Start Your Journey",
+        "url": "/about"
+      },
+      {
+        "label": "Read Adventures",
+        "url": "/blog"
       }
-    ]
-  },
-  "logos": {
-    "title": "Trusted by the world's best",
-    "icons": [
-      {
-        "name": "i-simple-icons-gitlab"
-      },
-      {
-        "name": "i-simple-icons-github"
-      },
-      {
-        "name": "i-simple-icons-openai"
-      },
-      {
-        "name": "i-simple-icons-google"
-      },
-      {
-        "name": "i-simple-icons-netlify"
-      }
-    ]
+    ],
+    "dice": [20, 12, 10, 8, 6, 4]
   },
   "features": {
-    "title": "Why choose Nuxt.js?",
-    "description": "Nuxt.js is a powerful framework built on top of Vue.js that provides an excellent developer experience.",
+    "title": "What Awaits You",
     "items": [
       {
-        "title": "Server-Side Rendering",
-        "description": "Nuxt.js allows you to build SSR applications with Vue.js, ensuring fast initial page loads and better SEO."
+        "icon": "⚔️",
+        "title": "Epic Adventures",
+        "description": "Discover thrilling campaigns and one-shots that will challenge your party and create unforgettable memories."
       },
       {
-        "title": "Static Site Generation",
-        "description": "You can pre-render pages at build time for static websites. This helps with performance and scalability by serving content directly from a CDN."
+        "icon": "📚",
+        "title": "DM Resources",
+        "description": "Comprehensive guides, tools, and tips to help you become the best Dungeon Master your table has ever seen."
       },
       {
-        "title": "Auto-Routing",
-        "description": "Nuxt automatically generates routes based on the file structure inside the pages directory, reducing the need for manual configuration."
+        "icon": "🎭",
+        "title": "Character Building",
+        "description": "Master the art of character creation with detailed guides on races, classes, and roleplay techniques."
       },
       {
-        "title": "File-based Configuration",
-        "description": "Nuxt uses a convention-over-configuration approach, allowing you to define configurations easily in nuxt.config.js without much boilerplate."
+        "icon": "🗺️",
+        "title": "World Building",
+        "description": "Learn to craft immersive worlds filled with rich lore, compelling NPCs, and endless possibilities."
       },
       {
-        "title": "Dynamic Imports",
-        "description": "It supports lazy loading of components with dynamic imports to improve performance by splitting the code into smaller chunks."
+        "icon": "🎲",
+        "title": "Rules & Mechanics",
+        "description": "Clear explanations of game mechanics, house rules, and tips for smooth gameplay sessions."
       },
       {
-        "title": "SEO Friendly",
-        "description": "With SSR, SSG, and automatic meta tag handling, Nuxt.js ensures your application is SEO-friendly."
+        "icon": "👥",
+        "title": "Community",
+        "description": "Connect with fellow adventurers, share stories, and find groups to embark on new quests together."
       }
     ]
   },
-  "testimonials": {
-    "title": "What Our Users Are Saying",
-    "description": "Hear from our clients about their experiences working with Nuxt and Netlify.",
-    "items": [
+  "recentPosts": {
+    "title": "Recent Adventures",
+    "posts": [
       {
-        "quote": "Nuxt has made building our projects so much easier and more enjoyable! Its simple setup and powerful features help us create fast, responsive websites with minimal effort.",
-        "author": {
-          "name": "Daniel H.",
-          "title": "Marketing Specialist at Some Company",
-          "avatar": "images/person-1.jpg"
-        }
+        "category": "Campaign Guide",
+        "title": "The Lost Mines of Phandelver: A Beginner's Guide",
+        "description": "Everything you need to know to run this classic starter adventure, including tips for new DMs and common pitfalls to avoid.",
+        "date": "March 15, 2024",
+        "readTime": "8 min read",
+        "url": "/blog/lost-mines-guide"
       },
       {
-        "quote": "The scalability offered by Netlify and the flexibility of Nuxt have allowed us to expand our site's functionality without worrying about performance issues. This combination is a powerful solution for any growing business.",
-        "author": {
-          "name": "Sarah L.",
-          "title": "CEO at Some Company",
-          "avatar": "images/person-2.jpg"
-        }
+        "category": "Character Creation",
+        "title": "Building Memorable NPCs That Players Will Love",
+        "description": "Learn the secrets of creating non-player characters that feel real, have clear motivations, and drive your story forward.",
+        "date": "March 10, 2024",
+        "readTime": "12 min read",
+        "url": "/blog/memorable-npcs"
       },
       {
-        "quote": "Switching to Nuxt and Netlify was a game-changer for our development process. The seamless integration between the two platforms allowed us to deploy faster and with fewer headaches.",
-        "author": {
-          "name": "Mark T.",
-          "title": "Frontend Engineer at Some Company",
-          "avatar": "images/person-3.jpg"
-        }
+        "category": "DM Tips",
+        "title": "Running Combat: How to Keep It Fast and Fun",
+        "description": "Practical strategies for managing combat encounters that keep your players engaged and the story moving forward.",
+        "date": "March 5, 2024",
+        "readTime": "6 min read",
+        "url": "/blog/combat-tips"
       }
-    ]
+    ],
+    "viewAll": {
+      "label": "View All Posts",
+      "url": "/blog"
+    }
   },
   "cta": {
-    "title": "Start Building with Nuxt & Netlify",
-    "description": "Let your next project be smarter, faster, and effortlessly deployable.",
-    "buttons": [
-      {
-        "label": "Get Started Today",
-        "url": "https://www.netlify.com/"
-      }
-    ]
+    "title": "Ready to Begin Your Adventure?",
+    "description": "Join thousands of adventurers who have discovered the magic of D&D through our guides and resources.",
+    "button": {
+      "label": "Get Started Today",
+      "url": "/contact"
+    }
   }
-} 
+}
